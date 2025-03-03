@@ -6,9 +6,17 @@ function SearchBar() {
   const [query, setQuery] = useState("");
 
   return (
-    <>
-      <div className="searchbar"></div>
-    </>
+    <div className="search-bar">
+      <Search className="search-icon" size={18} />
+      <input
+        type="text"
+        className="search-input"
+        placeholder="Search tokens"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      ></input>
+      <div className="search-shortcut"></div>
+    </div>
   );
 }
 
