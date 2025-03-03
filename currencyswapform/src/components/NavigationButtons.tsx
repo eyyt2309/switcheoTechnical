@@ -6,6 +6,9 @@ import {
   BarChart2,
   Send,
   CreditCard,
+  CircleDollarSign,
+  WavesLadder,
+  Barcode,
 } from "lucide-react";
 import MenuItem from "./MenuItem";
 import "../css/NavigationButtons.css";
@@ -16,7 +19,7 @@ function NavigationButtons() {
       <nav className="navbar">
         <div className="logo-container">
           <Link to="/home" className="logo">
-            <img src="currencyswapform\public\AAVE.svg"></img>
+            <img src="AAVE.svg"></img>
             <span>BitBase</span>
           </Link>
         </div>
@@ -32,11 +35,6 @@ function NavigationButtons() {
               text="Swap"
               link="/swap"
             />
-            <MenuItem
-              icon={<BarChart2 size={16} />}
-              text="Limit"
-              link="/limit"
-            />
             <MenuItem icon={<Send size={16} />} text="Send" link="/send" />
             <MenuItem icon={<CreditCard size={16} />} text="Buy" link="/buy" />
           </div>
@@ -49,17 +47,17 @@ function NavigationButtons() {
           </Link>
           <div className="dropdown-menu">
             <MenuItem
-              icon={<BarChart2 size={16} />}
+              icon={<CircleDollarSign size={16} />}
               text="Tokens"
               link="/explore/tokens"
             />
             <MenuItem
-              icon={<Send size={16} />}
+              icon={<WavesLadder size={16} />}
               text="Pools"
               link="/explore/pools"
             />
             <MenuItem
-              icon={<CreditCard size={16} />}
+              icon={<Barcode size={16} />}
               text="Transactions"
               link="/explore/transactions"
             />
