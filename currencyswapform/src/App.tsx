@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -8,6 +7,8 @@ import {
 import "./App.css";
 import Home from "./pages/Home";
 import SendCrypto from "./pages/SendCrypto";
+import SwapCrypto from "./pages/SwapCrypto";
+import BuyCrypto from "./pages/BuyCrypto";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/swap" element={<SwapCrypto />} />
           <Route path="/send" element={<SendCrypto />} />
+          <Route path="/buy" element={<BuyCrypto />} />
         </Routes>
       </Router>
     </>
