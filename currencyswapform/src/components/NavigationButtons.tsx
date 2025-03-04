@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import {
   ChevronDown,
   ArrowLeftRight,
-  BarChart2,
+  Mails,
   Send,
   CreditCard,
   CircleDollarSign,
   WavesLadder,
   Barcode,
+  Newspaper,
 } from "lucide-react";
 import MenuItem from "./MenuItem";
 import "../css/NavigationButtons.css";
@@ -66,15 +67,19 @@ function NavigationButtons() {
 
         <div className="dropdown">
           <Link to="/positions" className="dropdown-button">
-            <span>Pool</span>
+            <span>News</span>
             <ChevronDown className="icon" />
           </Link>
           <div className="dropdown-menu">
-            <MenuItem icon={<Send size={16} />} text="Send" link="/positions" />
             <MenuItem
-              icon={<CreditCard size={16} />}
-              text="Buy"
-              link="/positions/create"
+              icon={<Newspaper size={16} />}
+              text="BitBase Reads"
+              link="/read"
+            />
+            <MenuItem
+              icon={<Mails size={16} />}
+              text="Opinions"
+              link="/opinion"
             />
           </div>
         </div>

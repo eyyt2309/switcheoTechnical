@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import SendCrypto from "./pages/SendCrypto";
 import SwapCrypto from "./pages/SwapCrypto";
 import BuyCrypto from "./pages/BuyCrypto";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/swap" element={<SwapCrypto />} />
           <Route path="/send" element={<SendCrypto />} />
           <Route path="/buy" element={<BuyCrypto />} />
+          <Route path="login" element={<Login />} />
         </Routes>
       </Router>
     </>

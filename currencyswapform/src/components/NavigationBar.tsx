@@ -2,6 +2,7 @@ import NavigationButtons from "./NavigationButtons";
 import SearchBar from "./SearchBar";
 import "../css/NavigationBar.css";
 import Setting from "./Setting";
+import LogOutButton from "./LogOutButton";
 
 function NavigationBar() {
   return (
@@ -14,6 +15,7 @@ function NavigationBar() {
       </div>
       <div className="nav-right">
         <Setting />
+        <LogOutButton />
       </div>
     </nav>
   );

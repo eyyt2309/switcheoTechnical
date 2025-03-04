@@ -10,7 +10,6 @@
 }
 
 .buy-menu {
-  background: #181818;
   padding: 15px;
   border-radius: 12px;
   position: relative;
@@ -50,7 +49,7 @@
 }
 
 .token-selector {
-  position: absolute;
+  position: relative;
   right: 10px;
   top: 10px;
   background: #222;
@@ -186,4 +185,5 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 8px;
 }

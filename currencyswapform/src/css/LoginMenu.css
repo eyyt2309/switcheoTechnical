@@ -1,0 +1,39 @@
+.login-menu-box {
+  background: #181818;
+  padding: 15px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 8px;
+  align-items: center;
+}
+
+.login-header {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.input-box {
+  background: #181818;
+  padding: 15px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2px;
+}
+
+.username-password-input {
+  background: #181818;
+  padding: 15px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 2px;
+}

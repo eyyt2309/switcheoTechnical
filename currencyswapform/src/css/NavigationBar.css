@@ -24,6 +24,7 @@
 }
 
 .nav-right {
+  display: flex;
   margin-left: 10%;
   padding-left: 10%;
 }

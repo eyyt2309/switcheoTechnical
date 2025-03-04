@@ -1,6 +1,7 @@
 .setting-container {
   position: relative;
   display: inline-block;
+  margin-right: 5px;
 }
 
 .setting-dropdown h3 {
